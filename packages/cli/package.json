@@ -1,6 +1,6 @@
 {
   "name": "my-js-snippets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "files": [
     "dist"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@my-js-snippets/local-client": "^1.0.1"
+    "@my-js-snippets/local-client": "^1.0.2"
   },
   "devDependencies": {
-    "@my-js-snippets/local-api": "^1.0.1",
+    "@my-js-snippets/local-api": "^1.0.2",
     "@types/node": "^14.14.41",
     "commander": "^7.2.0",
     "esbuild": "0.8.26",
