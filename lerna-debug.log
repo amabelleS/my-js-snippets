@@ -1,0 +1,12 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: '@my-js-snippets/local-api',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'C:\\Users\\imbal\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   pkg: '@my-js-snippets/local-client'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\imbal\OneDrive\מסמכים\udemy\typescript\Grider\my-notes\jbook
+3 error HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/@my-js-snippets%2flocal-client - Not found
+3 error     at C:\Users\imbal\AppData\Roaming\npm\node_modules\lerna\node_modules\pacote\node_modules\npm-registry-fetch\check-response.js:134:15
