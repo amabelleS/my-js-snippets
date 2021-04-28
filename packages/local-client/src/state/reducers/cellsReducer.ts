@@ -28,7 +28,6 @@ const reducer = produce((state: CellsState = initialState, action: Action) => {
     case ActionType.FETCH_CELLS:
       state.loading = true;
       state.error = null;
-console.log(state);
 
       return state;
     case ActionType.FETCH_CELLS_COMPLETE:
@@ -91,7 +90,7 @@ console.log(state);
     default:
       return state;
   }
-});
+}, initialState);
 
 const randomId = () => {
   return Math.random().toString(36).substr(2, 5);
