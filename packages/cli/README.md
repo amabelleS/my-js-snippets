@@ -58,7 +58,7 @@ my-js-snippets your-file-name.js serve -p 4200
 ### _About the coding enviroment_ ❤️
 
 - Click any text cell to edit it.
-- The code in each code editor is joined together into one file. If you definr a variable in cell #1, you can refer to it in ant following cell.
+- The code in each code editor is joined together into one file. If you define a variable in cell #1, you can refer to it in any following cell.
 - You can show React components, string, number, or anything else by calling the show() function. This function is built into this enviroment.
 - Re-order or delete cells using the buttons on the top right
 - Add new cells by hovering on the divider between each cell
