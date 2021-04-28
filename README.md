@@ -2,7 +2,7 @@
 
 This Application was developed with typescript, react, redux, node.js, express, lerna and more.
 Implementing Esbuils - An extremely fast JavaScript bundler.
-You can Check there documentation over here: [Esbuild docs](https://esbuild.github.io/)
+You can Check the documentation over here: [Esbuild docs](https://esbuild.github.io/)
 
 ## About this project ❤️
 
