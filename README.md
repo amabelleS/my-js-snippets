@@ -6,9 +6,10 @@ You can Check the documentation over here: [Esbuild docs](https://esbuild.github
 
 ## About this project ❤️
 
-A node cli that start a web service with addvance javascript sandbox.
-The tool enables the user to write ES-07 code (or text snipets) in the browser,
-showing the results in a preview window and saving them to the local file system.
+A node cli that start a web service with advanced javascript sandbox (an interactive
+coding enviroment). The tool enables the user to write ES-07 code snipets, see it excuted in
+a preview window in the browser, and write comprehesive documentation using markdown. All the changes
+are saved to the local file system.
 started as an expriment for learning typescript (with react and redux) and implementing Esbuils -
 An extremely fast JavaScript bundler. Also, managed mono-repo with lerna.
 
@@ -53,3 +54,11 @@ my-js-snippets serve -p 4200
 ```bash
 my-js-snippets your-file-name.js serve -p 4200
 ```
+
+### _About the coding enviroment_ ❤️
+
+- Click any text cell to edit it.
+- The code in each code editor is joined together into one file. If you definr a variable in cell #1, you can refer to it in ant following cell.
+- You can show React components, string, number, or anything else by calling the show() function. This function is built into this enviroment.
+- Re-order or delete cells using the buttons on the top right
+- Add new cells by hovering on the divider between each cell

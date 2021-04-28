@@ -22,10 +22,11 @@ const CellList: React.FC = () => {
     </Fragment>
   ));
 
+
   return (
     <div className="cell-list">
       <AddCell forceVisible={cells.length === 0} prevCellId={null} />
-      {renderedCells}
+       {renderedCells}
     </div>
   );
 };
