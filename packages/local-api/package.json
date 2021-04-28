@@ -1,6 +1,6 @@
 {
   "name": "@my-js-snippets/local-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "files": [
     "dist"
@@ -23,7 +23,7 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@my-js-snippets/local-client": "^1.0.3",
+    "@my-js-snippets/local-client": "^1.0.4",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.2.1"
